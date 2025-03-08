@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #bbbaba;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.header_logo{
+    width: 15rem;
+    height: 200px;
+    margin: 20px 0 20px 0;
+}
+
+.header_listLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20rem;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.header_listLinks li,a{
+    margin: 0 15px 0 0;
+    font-size: 26px;
+    color:black;
+    text-decoration: none;
+    list-style: none;
+}
+
+main{
+    width: 100%;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main_backgroundImage{
+    background-image: url("../images/banner.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_title{
+    margin: 40px auto auto auto;
+    font-size: 38px;
+    text-align: center;
+}
+
+.main_DescriptionAlura{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.main_DescriptionAlura_image{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 20px 40px 20px;
+}
+
+.main_Description{
+
+}
+
+.main_establishment{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main_map{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_map iframe{
+    margin: auto;
+}
+
+
+.list_establishment_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list_establishment_container ul{
+    margin: 20px 55px 0 0;
+    font-size: 16px;
+}
+
+.list_establishment_container ul li::marker{
+    content: '>';
+}
+
+.list_establishment_container_image{
+    width: 380px;
+    height: 250px;
+    margin-top: 20px;
+    box-shadow:10px 10px 5px black;
+}
+
+
+.main_video{
+    width: 100%;
+    margin: 50px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+}
