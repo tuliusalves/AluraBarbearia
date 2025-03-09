@@ -36,64 +36,43 @@ header{
     list-style: none;
 }
 
-.form_contact{
+.products_cardContainer{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    font-size: 19px;
-}
-.form_contact form{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.form_contact input{
-    height: 15px;
-    padding: 2px;
+.products_cardContainer_card{
+    width: 270px;
+    height: 400px;
+    border:solid 1px ;
+    border-radius: 10px;
+    margin:30px 15px;
+    text-align: center;
+    
+}
+.card_title{
+    font-size: 25px;
 }
 
-
-.form_contact select{
-    width: 30%;
-}
-.form_contact textarea{
+.card_logo{
+    max-width: 100%;
     height: 200px;
 }
-
-.form_contact button{
-    width: 330px;
-    height: 40px;
-    background-color:#fea401;
-    color: #ffff;
-    border: none;
-    font-size: 14px;
+.card_description{
+    max-width: 100%;
+    height: auto;
+    padding: 0 30px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.card_price{
     font-weight: bold;
+    font-size:22px;
+    margin-top: -8px;
 }
 
-
-.radio_div{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-table{
-    border-collapse: collapse;
-    width: 300px;
-    margin: 20px;
-}
-
-th,td{
-    border: 1px solid ;
-    padding: 8px;
-    text-align: left;
-}
-
-th{
-    font-weight: bold;
-}
 
 
 footer{
@@ -102,7 +81,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    
 }
 .footer_logo_white{
     width: 177px;
